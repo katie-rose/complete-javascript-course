@@ -67,29 +67,45 @@
 
 /* Operator Precedence */
 
-var now = 2019;
-var yearJohn = 1989;
-var fullAge = 18;
+// var now = 2019;
+// var yearJohn = 1989;
+// var fullAge = 18;
 
 // Multiple operators
-var isFullAge = now - yearJohn >= fullAge; //true
-console.log(isFullAge);
+// var isFullAge = now - yearJohn >= fullAge; //true
+// console.log(isFullAge);
 
-//Grouping 
-var ageJohn = now - yearJohn;
-var ageMark = 35;
-var average = (ageJohn + ageMark) / 2;
-console.log(average);
+// //Grouping 
+// var ageJohn = now - yearJohn;
+// var ageMark = 35;
+// var average = (ageJohn + ageMark) / 2;
+// console.log(average);
 
-// Multiple assignments
-var x, y;
-x = y = (3 + 5) * 4 - 6; 
-console.log(x, y);
+// // Multiple assignments
+// var x, y;
+// x = y = (3 + 5) * 4 - 6; 
+// console.log(x, y);
 
-// More operators 
-x *= 2;
-console.log(x);
-x += 10;
-console.log(x);
-x++;
-console.log(x);
+// // More operators 
+// x *= 2;
+// console.log(x);
+// x += 10;
+// console.log(x);
+// x++;
+// console.log(x);
+
+// CODING CHALLENGE
+
+var massMark = 78; // kg
+var heightMark = 1.69; // meters
+
+var massJohn = 92;
+var heightJohn = 1.95;
+
+var bmiMark = massMark / (heightMark * heightMark);
+console.log(bmiMark);
+var bmiJohn = massJohn / (heightJohn * heightJohn);
+console.log(bmiJohn);
+
+var markHigherBMI = bmiMark > bmiJohn;
+console.log("Is Mark's BMI higher than John's? " + markHigherBMI);
