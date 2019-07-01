@@ -21,7 +21,7 @@
 // //Type coercion
 // console.log(firstName + ' ' + age);
 
-// var job, isMarried; 
+// var job, isMarried;
 // job = 'teacher';
 // isMarried = false;
 
@@ -55,8 +55,8 @@
 // console.log(year * 4);
 // console.log(year / 10);
 
-// Logical operators 
-// var johnOlder = ageJohn < ageMark; 
+// Logical operators
+// var johnOlder = ageJohn < ageMark;
 // console.log(johnOlder)
 
 // typeof operator
@@ -75,7 +75,7 @@
 // var isFullAge = now - yearJohn >= fullAge; //true
 // console.log(isFullAge);
 
-// //Grouping 
+// //Grouping
 // var ageJohn = now - yearJohn;
 // var ageMark = 35;
 // var average = (ageJohn + ageMark) / 2;
@@ -83,10 +83,10 @@
 
 // // Multiple assignments
 // var x, y;
-// x = y = (3 + 5) * 4 - 6; 
+// x = y = (3 + 5) * 4 - 6;
 // console.log(x, y);
 
-// // More operators 
+// // More operators
 // x *= 2;
 // console.log(x);
 // x += 10;
@@ -107,11 +107,5 @@ console.log(bmiMark);
 var bmiJohn = massJohn / (heightJohn * heightJohn);
 console.log(bmiJohn);
 
-// var markHigherBMI = bmiMark > bmiJohn;
-// console.log("Is Mark's BMI higher than John's? " + markHigherBMI);
-
-if (bmiMark > bmiJohn) {
-    console.log("Mark\' BMI is higher than John\'s");
-} else {
-    console.log("John\' BMI is higher than Mark\'s");
-}
+var markHigherBMI = bmiMark > bmiJohn;
+console.log("Is Mark's BMI higher than John's? " + markHigherBMI);
